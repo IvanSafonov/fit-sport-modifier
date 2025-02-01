@@ -1,6 +1,6 @@
 ## About
 
-Console line tool for modifying sport in .fit files.
+Command line tool for modifying sport in .fit files.
 
 ```bash
 Usage of ./fit-sport-modifier [options] in.fit [out.fit]
