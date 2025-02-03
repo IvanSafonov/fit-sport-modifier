@@ -14,7 +14,8 @@ Replace sport name:
 Replace sport name and sub sport code:
 ./fit-sport-modifier -subsport 42 -name "XC Skate Ski" ./in.fit ./out.fit
 
-Options:  -name string
+Options:
+  -name string
         new sport name
   -sport int
         new sport code (default -1)
