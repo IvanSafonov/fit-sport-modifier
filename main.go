@@ -85,7 +85,7 @@ func Usage() {
 	fmt.Printf("Show current sport fields:\n%s in.fit\n\n", name)
 	fmt.Printf("Replace sport name:\n%s -name \"XC Skate Ski\" ./in.fit ./out.fit\n\n", name)
 	fmt.Printf("Replace sport name and sub sport code:\n%s -subsport 42 -name \"XC Skate Ski\" ./in.fit ./out.fit\n\n", name)
-	fmt.Printf("Options:")
+	fmt.Printf("Options:\n")
 	flag.PrintDefaults()
 }
 
